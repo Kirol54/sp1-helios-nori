@@ -17,7 +17,17 @@ Time Taken
 2:03
 [2025-01-03T22:56:15Z INFO operator] Attempting to update to new head block: 10760000
 
-Local
-[2025-01-03T23:00:22Z INFO tracing::span] prove_core;
-[2025-01-03T23:21:26Z INFO sp1_prover] wrapping successful
-<--docker failed-->
+## V2
+
+after break
+[2025-01-06T12:11:59Z INFO sp1_sdk::network::prover] Simulation complete, cycles: 110430172
+[2025-01-06T12:12:02Z INFO sp1_sdk::network::prover] Created proofrequest_01jgxrex3cfetr8xh1nv2mp17s
+[2025-01-06T12:12:02Z INFO sp1_sdk::network::prover] View in explorer: https://explorer.succinct.xyz/proofrequest_01jgxrex3cfetr8xh1nv2mp17s
+[2025-01-06T12:12:07Z INFO sp1_sdk::network::prover] Proof request claimed, proving...
+[2025-01-06T12:19:13Z INFO sp1_sdk::network::client] Proof request fulfilled
+
+[2025-01-06T12:45:29Z INFO sp1_sdk::network::prover] Simulation complete, cycles: 74287667
+[2025-01-06T12:45:32Z INFO sp1_sdk::network::prover] Created proofrequest_01jgxtc7jbfetv5p1713jmwq9g
+[2025-01-06T12:45:32Z INFO sp1_sdk::network::prover] View in explorer: https://explorer.succinct.xyz/proofrequest_01jgxtc7jbfetv5p1713jmwq9g
+[2025-01-06T12:45:34Z INFO sp1_sdk::network::prover] Proof request claimed, proving...
+[2025-01-06T12:51:35Z INFO sp1_sdk::network::client] Proof request fulfilled
