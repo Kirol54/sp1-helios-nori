@@ -17,6 +17,7 @@ use tree_hash::TreeHash;
 
 pub const MAX_REQUEST_LIGHT_CLIENT_UPDATES: u8 = 128;
 
+pub mod nori;
 /// Fetch updates for client
 pub async fn get_updates(
     client: &Inner<MainnetConsensusSpec, HttpRpc>,
